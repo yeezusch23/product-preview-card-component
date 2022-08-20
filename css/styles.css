@@ -83,6 +83,12 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 0.9rem;
+    transition: background 0.2s;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: hsl(159, 35%, 19%);
 }
 
 @media screen and (min-width: 500px) {
